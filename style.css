@@ -169,7 +169,7 @@ input[type="checkbox"] {
   }
 }
 
-div.uwaga {
+#uwaga {
   text-align: center;
   color: white;
   position: absolute;

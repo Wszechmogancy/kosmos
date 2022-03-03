@@ -1,8 +1,12 @@
-const menu = document.getElementById("active");
-const t_powitalny = document.getElementById("menu");
+// $(document).ready(function() {
+//     $("input").change(function() {
+//         var $input = $(this);
+//         $("p").html(
+//             ".attr( \"checked\" ): <b>" + $input.attr("checked") + "</b><br>" +
+//             ".prop( \"checked\" ): <b>" + $input.prop("checked") + "</b><br>" +
+//             ".is( \":checked\" ): <b>" + $input.is(":checked") + "</b>");
+//     }).change();
 
-menu.addEventListener("click", function puf {
-    if (menu = checked) {
-        t_powitalny.style.visibility = "hidden";
-    }
-})
+
+
+// })
