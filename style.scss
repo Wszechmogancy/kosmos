@@ -171,12 +171,13 @@ input[type="checkbox"] {
 }
 
 // jakieś tam bzdury
-#uwaga {
+div#uwaga {
     text-align: center;
     color: white;
     position: absolute;
     margin: 0 auto;
-    left: 260px;
-    top: 381px;
+    left: 25%;
+    top: 40%;
+    right: 25%;
     font-size: x-large;
 }

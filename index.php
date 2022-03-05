@@ -24,19 +24,22 @@
             <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
         </svg>
         </div>
-        <div class="uwaga">
+        <div class="uwaga" id="uwaga">
             <p>zanim przejdziesz do dalszych artykówł chiałbym zaznaczyć<br> że czasz jaki my uważamy że cos trwa długo w pesperktywie kosmosu jest to strasznie mała <br> np. od 0 wieku do diśejszego roku mineło 2022 lata jednak dla kosmosu jest to jak dla
                 nas co najmniej 2 lata <br> bendę się posługiwał w większści jednostka lat świetlnych jedna ta jednostka to 9,5 bilionów km.</p>
         </div>
         <script>
             $(document).ready(function(){
+                $('')
                 $("#active").change(function() {
-                    var tak = $("#active").prop("checked");
-                    if(tak = true){
-                        $(".uwaga").hide();
+                    if($('#active').prop("checked") === true){
+                        $('#uwaga').hide();
                     }else{
-                        $(".uwaga").show();
-                    };
+                        setTimeout(function(){
+                            $('#uwaga').show();
+                        },320)
+                        
+                    }
                 }).change();
             })
         </script>
